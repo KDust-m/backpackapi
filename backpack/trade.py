@@ -1,8 +1,8 @@
 import math
 import time
 import logging
-from bpx import BpxClient
-from bpx_pub import Depth
+from backpack.bpx import BpxClient
+from backpack.bpx_pub import Depth
 
 # 설정: API 키 및 시크릿 (반드시 본인의 API 키를 입력해야 함)
 API_KEY = "your_api_key"
