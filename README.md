@@ -5,15 +5,15 @@
 **메이커 주문을 통한 저렴한 수수료로 거래볼륨을 효과적으로 늘릴 수 있습니다.**
 <br><br><br>
 
-**API Docs (API 문서)**<br>
+# API Docs (API 문서)
 - https://docs.backpack.exchange/<br>
 - pip install bpx-api<br>
 <br><br><br>
 
-**How to use it**<br>
+# How to use it
  Download all three files in /backpack.<br>
  Enter your api key and secret in trade.py<br>
-* The api key and secret can be created at https://backpack.exchange/portfolio/settings/api-keys.
+- The api key and secret can be created at https://backpack.exchange/portfolio/settings/api-keys.
 <br><br>
 Run trade.py<br>
 Enter multiple variables at execution.<br>
@@ -23,10 +23,10 @@ Enter multiple variables at execution.<br>
 4. Pair Name: Enter a transaction pair consisting of base and counter.<br>
 5. Item Name: Enter the base name for checking the balance.<br>
 <br><br>
-**사용안내**<br>
+# 사용안내
 /backpack 내 3개의 파일을 모두 다운로드 받습니다.<br>
 trade.py 안에 본인의 api key와 secret 을 입력합니다.<br>
-* api key와 secret은 https://backpack.exchange/portfolio/settings/api-keys 에서 생성 할 수 있습니다.<br>
+- api key와 secret은 https://backpack.exchange/portfolio/settings/api-keys 에서 생성 할 수 있습니다.<br>
 <br><br>
 trade.py를 실행합니다.<br>
 실행 시 여러 변수를 입력합니다.<br>
