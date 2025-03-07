@@ -23,7 +23,9 @@ def get_order_book(pair):
 def get_nth_price(order_book, side, n):
     """n번째 유리한 호가의 가격을 가져옴"""
     try:
-        if side == "Bid" and len(order_book["bids"]) >= n:
+        if side == "Ask" and n == 0:
+            return float(order_book["bids"][n-1][0]) if len(order_book["bids"]) > 4 else float(order_book["bids"][0][0])
+        elif side == "Bid" and len(order_book["bids"]) >= n:
             return float(order_book["bids"][n-1][0]) if len(order_book["bids"]) > 4 else float(order_book["bids"][0][0])
         elif side == "Ask" and len(order_book["asks"]) >= n:
             return float(order_book["asks"][n-1][0]) if len(order_book["asks"]) > 4 else float(order_book["asks"][-1][0])
