@@ -1,6 +1,10 @@
 # backpackapi
 This is an api template for backpack automation transactions.
 
+You can effectively increase the trading volume with low fees through maker orders.
+
+메이커 주문을 통한 저렴한 수수료로 거래볼륨을 효과적으로 늘릴 수 있습니다.
+
 backpack 자동화 거래를 위한 api 템플릿입니다.
 
 
