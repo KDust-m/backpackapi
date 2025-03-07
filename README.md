@@ -1,4 +1,4 @@
-# Read First! 이걸 먼저 읽어주세요!
+# Read it First! 이걸 먼저 읽어주세요!
 **This is an api template for backpack automation transactions.** <br>
 **You can effectively increase the trading volume with low fees through maker orders.**<br>
 **backpack 자동화 거래를 위한 api 템플릿입니다.**<br>
